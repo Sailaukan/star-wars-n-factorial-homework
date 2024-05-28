@@ -1,0 +1,19 @@
+.card {
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0, 39, 111, 0.1);
+    transform: scale(1.02);
+
+}
+
+.planetName {
+    font-size: 18px;
+    font-weight: 600;
+}

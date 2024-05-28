@@ -1,0 +1,106 @@
+.mainWrapper {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ccc;
+}
+
+.mainContent {
+    padding: 40px 50px;
+}
+
+.title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.sectionTitle {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.cardGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0, 39, 111, 0.1);
+    transform: scale(1.02);
+
+}
+
+.planetName {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modalContent {
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    background-color: #272533;
+    min-width: 300px;
+    border: 1px solid #4c485a;
+    ;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.pageButton {
+    display: flex;
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.pageButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.pageButton:hover {
+    background-color: #f4f4f4;
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0, 39, 111, 0.1);
+    transform: scale(1.02);
+}
