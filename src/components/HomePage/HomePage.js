@@ -35,13 +35,12 @@ const HomePage = () => {
         );
     });
 
-        useEffect(() => {
+    useEffect(() => {
         axios.get(urlPlanets).then((response) => {
             setStarWarsDataPlanets(response.data);
             setLoading(false);
         });
     }, [urlPlanets]);
-
 
     function openModal(url) {
         setModalOpen(true);
